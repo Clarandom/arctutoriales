@@ -1,0 +1,78 @@
+<h1 class="bg-primary">Hola to {{title}}</h1>
+<!-- 
+<div [ngStyle]="{'color': colorVal, 'background-color': bgColorValue }">
+Learning Angular is divertidiño
+</div>
+
+<a [ngStyle]="{'color': colorVal, 'background-color': bgColorValue }" href="#">
+    Learning Angular is divertidiño
+</a> -->
+<!-- 
+<div [ngClass]="[clsClaraName, clsJuanName]">
+    Lalalala 
+</div>
+
+<div [ngClass]="{'one': false, 'two': true}">
+    Lalalala with expression values
+</div>
+
+<div> {{subTitle}}</div>
+<div> {{epNum}}</div>
+<div> {{user.userId}} , {{user.userName}}, {{user.status}}</div>
+
+<div [ngStyle]="{color:colorVal}">This is example of property Binding</div>
+<p [innerHTML]='subTitle'></p>
+<input [placeholder]="subTitle">
+
+<a [href]="hrefVal" [attr.updateLink]='updatedLink' [attr.data-link]='updatedLink'>Google</a>
+<h4>Learning event binding</h4>
+<button (click)="showAlert(10);">Click me</button>
+<input (focus)="consoleLog();"/>
+
+
+<h4>Learning two way data binding</h4>
+
+<input [(ngModel)]="firstname" />
+<button (click)="readFirstname()">Read First Name</button>
+<div>{{ firstname }}</div>
+
+<div>
+    {{user.firstName | lowercase }}, {{ user.lastName | uppercase }}
+</div>
+
+<div>
+    {{user.DOB | date:'dd/MM/yy' }}
+</div>
+
+<div>
+    {{user.salary | currency: 'EUR':'EUR':'3.6-10'}}
+</div>
+<code>
+    {{ user }}
+</code>
+<div>
+    {{user |json}}
+</div>
+<div>
+    {{user.DOB | date:'long' | uppercase }}
+</div>
+ -->
+<!-- <h4>Example of custompipa</h4> -->
+<!-- <div>{{ user.city | highlight: user.city }}</div> -->
+<!-- <div [innerHTML]= "user.city | highlight: user.city"></div> -->
+<!-- 
+<ul>
+    <li *ngFor="let user of  users">
+        <div [innerHTML]= "user.city | highlight: user.city:user.cityCode"></div>
+
+    </li>
+</ul> -->
+
+<ul>
+    <li><a href="/products">Products</a></li>
+    <li><a href="/product-view">Product view</a></li>
+    <li><a href="/product-edit">Product edit</a></li>
+</ul>
+<div class="">
+<router-outlet></router-outlet>
+</div>
